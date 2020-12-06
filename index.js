@@ -7,8 +7,8 @@ app.use(express.urlencoded({extended: true}))
 
 app.get('/', (req, res) => {
     res.render('./chatbot.ejs', {
-        from: "Talk to chatbot",
-        to: "a"
+        from: "Talk to Chirpy!",
+        to: ""
     });
 })
 
