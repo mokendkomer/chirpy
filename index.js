@@ -1,7 +1,7 @@
 const express = require('express')
 const cleverbot = require("cleverbot-free");
 const app = express()
-const port = server.listen(process.env.PORT || 3000);
+const port = process.env.PORT;
 
 app.use(express.urlencoded({extended: true}))
 
